@@ -169,13 +169,13 @@
 						<locations>
 							<location>filesystem:src/main/resources/db/migration/common/V1</location>
 						</locations>
-						<url>${flyway.url}</url>
-						<user>${flyway.user}</user>
-						<password>${flyway.password}</password>
+						<url>jdbc:postgresql://127.0.0.1:5432/sportStats</url>
+						<user>postgres</user>
+						<password>postgres</password>
 						<baselineOnMigrate>true</baselineOnMigrate>
 						<validateOnMigrate>false</validateOnMigrate>
-						<schemas>${flyway.schemas}</schemas>
-						<cleanDisabled>${flyway.cleanDisabled}</cleanDisabled>
+						<schemas>sportStatsSchema</schemas>
+						<cleanDisabled>false</cleanDisabled>
 						<placeholderPrefix></placeholderPrefix>
 						<baselineVersion>2</baselineVersion>
 						<configFile>${flyway.configFiles}</configFile>
