@@ -1,0 +1,8 @@
+--INSERT INTO funzione(id, path_funzione, label_funzione, id_parent, ordinamento, icona, usr_ins, usr_upd, dta_ins, dta_upd, rec_ver ) VALUES
+--     (( SELECT FN_SYS_SEQNEXTVAL('seq_funzione')),'/pages/gestione-tp-imp'		    	,'Gestione Tipo Impianto'   		   , 6		,	 19,''	    , 'SYSTEM', 'SYSTEM', FN_SYS_CURDATE(), FN_SYS_CURDATE(),0
+--),   (( SELECT FN_SYS_SEQNEXTVAL('seq_funzione')),'/pages/gestione-fgas'		    	,'Gestione FGAS'   		   			   , 6		,	 20,''	    , 'SYSTEM', 'SYSTEM', FN_SYS_CURDATE(), FN_SYS_CURDATE(),0
+--),   (( SELECT FN_SYS_SEQNEXTVAL('seq_funzione')),'/pages/gestione-mis-ado-fgas'		,'Misure Smantellamento FGAS' 		   , 6		,	 21,''	    , 'SYSTEM', 'SYSTEM', FN_SYS_CURDATE(), FN_SYS_CURDATE(),0
+--),   (( SELECT FN_SYS_SEQNEXTVAL('seq_funzione')),'/pages/gestione-tipo-unita-impianto'	,'Gestione Tipo Unità Impianto' 	   , 6		,	 22,''	    , 'SYSTEM', 'SYSTEM', FN_SYS_CURDATE(), FN_SYS_CURDATE(),0
+--);
+--IN POSTDATA INSERT INTO 
+--EXAMPLE
