@@ -1,0 +1,2 @@
+--SELECT FN_SYS_ADDFOREIGNKEY	('dettaglio_articolo'	, 'fk_dettaglio_articolo_master_utente_ins'				, 'ref_utente_ins'					, 'utente'						, null	)	FROM dual;
+--IN DATA INESRT FOREIGN KEY 

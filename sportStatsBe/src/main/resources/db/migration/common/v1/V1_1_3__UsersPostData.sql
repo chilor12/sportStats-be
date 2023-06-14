@@ -1,3 +1,4 @@
 --INSERT INTO catalogo(id, codice, descrizione, tipo, flag_non_modificabile, flag_in_listino, percentuale,flag_intera_giornata, usr_ins, usr_upd, dta_ins, dta_upd, rec_ver ) VALUES
 -- (( SELECT FN_SYS_SEQNEXTVAL('seq_catalogo')), '013','Cantiere'							, 'TUL', 'S', null, null, null,'SYSTEM', 'SYSTEM', FN_SYS_CURDATE(), FN_SYS_CURDATE(),0
 --);
+--IN POSTDATA INSERT INTO 
