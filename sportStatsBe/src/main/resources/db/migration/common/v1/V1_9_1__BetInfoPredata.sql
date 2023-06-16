@@ -9,5 +9,6 @@ SELECT FN_SYS_ADDCOLUMN				('bet_info'					, 'ref_player'		, 'LONG'		,  '5',    
 SELECT FN_SYS_ADDCOLUMN				('bet_info'					, 'ref_type_bet'	, 'LONG'		,  '5',    '0'		, null			, null			)	FROM dual;
 SELECT FN_SYS_ADDCOLUMN				('bet_info'					, 'quote'			, 'NUMBER'		,  '7',    '2'		, null			, null			)	FROM dual;
 SELECT FN_SYS_ADDCOLUMN				('bet_info'					, 'state'			, 'VARCHAR'		,  '50',   '0'      , null			, null			)	FROM dual;
+SELECT FN_SYS_ADDCOLUMN				('bet_info'					, 'ref_bet'			, 'LONG'		,  '5',    '0'		, null			, null			)	FROM dual;
 SELECT FN_SYS_ADD_SEQ_AUDIT_COLUMNS	('bet_info'					, 'id'																					)	FROM dual;
 

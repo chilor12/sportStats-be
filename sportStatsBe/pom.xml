@@ -177,7 +177,7 @@
 						<schemas>sportStatsSchema</schemas>
 						<cleanDisabled>false</cleanDisabled>
 						<placeholderPrefix></placeholderPrefix>
-						<baselineVersion>2</baselineVersion>
+						<baselineVersion>1</baselineVersion>
 						<configFile>${flyway.configFiles}</configFile>
 					</configuration>
 					<dependencies>

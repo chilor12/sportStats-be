@@ -8,6 +8,6 @@ SELECT FN_SYS_ADDCOLUMN				('player'					, 'name'				, 'VARCHAR'		, '100',   '0'
 SELECT FN_SYS_ADDCOLUMN				('player'					, 'surname'				, 'VARCHAR'		, '100',   '0'      , null				, null			)	FROM dual;
 SELECT FN_SYS_ADDCOLUMN				('player'					, 'nationality'			, 'VARCHAR'		, '100',   '0'		, null				, null			)	FROM dual;
 SELECT FN_SYS_ADDCOLUMN				('player'					, 'age'					, 'NUMBER'		,  '5',    '0'		, null				, null			)	FROM dual;
-SELECT FN_SYS_ADDCOLUMN				('player'					, 'ref_squad'			, 'LONG'		,  '5',    '0'		, null				, null			)	FROM dual;
+SELECT FN_SYS_ADDCOLUMN				('player'					, 'ref_team'			, 'LONG'		,  '5',    '0'		, null				, null			)	FROM dual;
 SELECT FN_SYS_ADD_SEQ_AUDIT_COLUMNS	('player'					, 'id'																							)	FROM dual;
 
